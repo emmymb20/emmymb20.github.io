@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6
 {
     position: absolute;
     right: 100px;
-    top: 100px;
+    top: 150px;
     border: 1px solid #ccc;
     padding: 5px;
     box-shadow: 5px 5px 5px #999;
@@ -25,6 +25,6 @@ h1, h2, h3, h4, h5, h6
 footer
 {
     background-color: #EDD2E0;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
