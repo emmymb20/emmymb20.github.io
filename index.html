@@ -27,9 +27,11 @@
 
     <footer>
         <p>&copy; 2020 | Emmaline Brown | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho</p>
-        <p id="modif">Last Updated: </p>
+
+        <button onclick="lastModified()">Last Updated:</button>
+        <p id="modif"></p>
         <script>
-            function myFunction() 
+            function lastModified) 
             {
                 var x = document.lastModified;
                 document.getElementById("modif").innerHTML = x;
