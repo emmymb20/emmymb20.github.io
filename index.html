@@ -28,15 +28,16 @@
     <footer>
         <p>&copy; 2020 | Emmaline Brown | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho</p>
 
-        <button onclick="lastModified()">Last Updated:</button>
-        <p id="modif"></p>
+        <button onclick="myFunction()">Try it</button>
+
+        <p id="demo"></p>
+        
         <script>
-            function lastModified()
-            {
-                var x = document.lastModified;
-                document.getElementById("modif").innerHTML = x;
-            }
-          </script>
+        function myFunction() {
+          var x = new Date(document.lastModified);
+          document.getElementById("demo").innerHTML = x;
+        }
+        </script>
     </footer>
 </body>
 </html>
