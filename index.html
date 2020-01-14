@@ -27,10 +27,12 @@
 
     <footer>
         <p>&copy; 2020 | Emmaline Brown | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho</p>
+        <p id="modif"></p>
         <script>
             function dateModified() 
             {
                 let oLastModif = new Date(document.lastModified);
+                document.getElementById = ("modif").innerHTML = oLastModif;
             }
           </script>
     </footer>
