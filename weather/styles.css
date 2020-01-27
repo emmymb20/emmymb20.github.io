@@ -21,15 +21,19 @@ nav ul
 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    padding: 1em;
+
 }
 footer
 {
     font-family: 'Raleway', sans-serif;
     padding: 10px;
     text-align: center;
+    background-color: deepskyblue;
 }
 .logo-img
 {
     width: 10px;
     height: auto;
+    margin: 0 auto;
 }
