@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 #content
 {
@@ -29,17 +30,38 @@ footer
     font-family: 'Raleway', sans-serif;
     padding: 10px;
     text-align: center;
-    background-color: deepskyblue;
+    background-color: #00bfff;
 }
 .logo-img
 {
     width: 10px;
     height: auto;
     margin: 0 auto;
-
-    margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6
 {
     font-family: 'Raleway', sans-serif;
+}
+.color-img
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+}
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.link
+{
+    text-align: center;
+    padding: 3vw;
+}
+.font-img
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
 }
