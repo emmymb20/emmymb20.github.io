@@ -31,6 +31,7 @@ footer
     padding: 10px;
     text-align: center;
     background-color: #00bfff;
+    max-width: 800px;
 }
 .logo-img
 {
@@ -140,20 +141,17 @@ nav {
 	font-weight: 700;
 }
 
-/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
-  <ul class="navigation responsive">
-  */
+
 .responsive li {
 	display: block;
 }
 
-/* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
 	.navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* needed because of state in small view */
+		display: block; 
 		flex: 1 1 100%;
 	}
 	.navigation li a {
