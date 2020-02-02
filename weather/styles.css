@@ -32,6 +32,7 @@ footer
     text-align: center;
     background-color: #00bfff;
     max-width: 800px;
+    margin: 0 auto;
 }
 .logo-img
 {
