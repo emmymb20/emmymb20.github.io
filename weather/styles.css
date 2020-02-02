@@ -14,7 +14,7 @@ nav ul
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
     margin: 0 auto;
-    padding: 30px;
+    padding: 3vw;
     max-width: 800px;
     text-align: center;
 }
@@ -64,4 +64,104 @@ p
     display: flex;
     justify-content: center;
     padding: 3vw;
+}
+
+@media screen and (max-width: 37.5em)
+{
+    nav ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 37.5em)
+{
+     nav 
+     {
+         display: flex;
+         flex-direction: column;
+     } 
+    
+     main 
+     {
+         display: flex;
+         flex-direction: column;
+     }
+   
+}
+
+@media screen and (min-width: 60em)
+{
+    nav
+    {
+        display: flex;
+        flex-direction: column;    
+    }
+
+    main
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #00bfff;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #fff;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
 }
