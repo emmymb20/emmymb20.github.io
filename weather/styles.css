@@ -241,7 +241,7 @@ ul
   grid-template-rows: repeat(14, 1fr);
 }
 
-#indicator 
+.indicator 
 {
   width: 1.5em;
   height: 1.5em;
@@ -251,103 +251,103 @@ ul
   grid-row: 2 / span 2;
 }
 
-#outer12 {
+.outer12 {
   grid-column: 7 / span 2;
   grid-row: 1 / span 2;
 }
-#inner12 {
+.inner12 {
   grid-column: 7 / span 2;
   grid-row: 1 / span 2;
 }
-#outer11 {
+.outer11 {
   grid-column: 4 / span 2;
   grid-row: 2 / span 2;
 }
-#inner11 {
+.inner11 {
    grid-column: 4 / span 2;
   grid-row: 2 / span 2;
 }
-#outer10 {
+.outer10 {
   grid-column: 2 / span 2;
   grid-row: 4 / span 2;
 }
-#inner10 {
+.inner10 {
  grid-column: 2 / span 2;
   grid-row: 4 / span 2;
 }
-#outer9 {
+.outer9 {
   grid-column: 1 / span 2;
   grid-row: 7 / span 2;
 }
-#inner9 {
+.inner9 {
   grid-column: 1 / span 2;
   grid-row: 7 / span 2;
 }
-#outer8 {
+.outer8 {
   grid-column: 2 / span 2;
   grid-row: -6 / span 2;
 }
-#inner8 {
+.inner8 {
 grid-column: 2 / span 2;
   grid-row: -6 / span 2;
 }
-#outer7 {
+.outer7 {
   grid-column: 4 / span 2;
   grid-row: -4 / span 2;
 }
-#inner7 {
+.inner7 {
   grid-column: 4 / span 2;
   grid-row: -4 / span 2;
 }
-#outer6 {
+.outer6 {
   grid-column: 7 / span 2;
   grid-row: -3 / span 2;
 }
-#inner6 {
+.inner6 {
   grid-column: 7 / span 2;
   grid-row: -3 / span 2;
 }
-#outer5 {
+.outer5 {
   grid-column: -6 / span 2;
   grid-row: -4 / span 2;
 }
-#inner5 {
+.inner5 {
   grid-column: -6 / span 2;
   grid-row: -4 / span 2;
 }
-#outer4 {
+.outer4 {
   grid-column: -4 / span 2;
   grid-row: -6 / span 2;
 }
-#inner4 {
+.inner4 {
     grid-column: -4 / span 2;
   grid-row: -6 / span 2;
 }
-#outer3 {
+.outer3 {
   grid-column: -3 / span 2;
   grid-row: 7 / span 2;
 }
-#inner3 {
+.inner3 {
    grid-column: -3 / span 2;
   grid-row: 7 / span 2;
 }
-#outer2 {
+.outer2 {
    grid-column: -4 / span 2;
   grid-row: 4 / span 2;
 }
-#inner2 {
+.inner2 {
   grid-column: -4 / span 2;
   grid-row: 4 / span 2;
 }
-#outer1 {
+.outer1 {
    grid-column: -6 / span 2;
   grid-row: 2 / span 2;
 }
-#inner1 {
+.inner1 {
   grid-column: -6 / span 2;
   grid-row: 2 / span 2;
 }
-.circular {
+.circle {
   position: absolute;
   width: 68%;
   height: 68%;
