@@ -1,5 +1,9 @@
+/*Fonts*/
+
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*General CSS*/
 
 #content
 {
@@ -85,6 +89,8 @@ p
     padding: 3vw;
 }
 
+/*Media Queries*/
+
 @media screen and (max-width: 37.5em)
 {
     nav ul
@@ -98,6 +104,7 @@ p
         display: flex;
         flex-direction: column;
     }
+
 }
 
 @media screen and (min-width: 37.5em)
@@ -113,8 +120,17 @@ p
          display: flex;
          flex-direction: column;
      }
-   
-}
+
+     .all-components
+     {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 1em;
+    }
+ }
+
 
 @media screen and (min-width: 60em)
 {
@@ -129,7 +145,18 @@ p
         display: flex;
         flex-direction: column;
     }
+    .all-components
+    {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 1em;
+    }
 }
+}
+
+/*Body Design*/
 
 nav {
 	margin: 0 auto;
@@ -157,6 +184,9 @@ html
     text-align: center;
     margin: 0 auto;   
 }
+
+/*Menu desgin*/
+
 .navigation {
 	list-style: none;
 	padding: 0;
@@ -186,11 +216,11 @@ html
 
 @media only screen and (min-width: 32.5em) {
 	.navigation {
-		display: flex;
+    display: flex;
 	}
 	.navigation li {
 		display: block; 
-        flex: 1 1 100%;
+    flex: 1 1 100%;
 	}
 	.navigation li a {
 		color: #fff;
@@ -203,6 +233,7 @@ html
 }
 
 /*Component design*/
+
 ul 
 {
   list-style-type: none;
@@ -249,6 +280,7 @@ ul
   border-radius: 2em;
   grid-column: 4 / span 2;
   grid-row: 2 / span 2;
+  z-index: 1;
 }
 
 .outer12 {
