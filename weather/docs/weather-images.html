@@ -18,21 +18,32 @@
 
     <main>
         <div id="pictures">
+
             <picture class="clear">
-                <img src="/images/placeholder.png" data-src="/images/clear.jpg" alt="clear">
+                <source media="(min-width: 768px)" srcset="/images/clear.jpg">
+                <img src="/images/placeholder.png" data-src="/images/clear-small.jpg" alt="clear">
             </picture>
+
             <picture class="clouds">
-                <img src="/images/placeholder.png" data-src="/images/clouds.jpg" alt="clouds">
+                <source media="(min-width: 768px)" srcset="/images/clouds.jpg">
+                <img src="/images/placeholder.png" data-src="/images/clouds-small.jpg" alt="clouds">
             </picture>
+
             <picture class="fog">
-                <img src="/images/placeholder.png" data-src="/images/fog.jpg" alt="fog">
+                <source media="(min-width: 768px)" srcset="/images/fog.jpg"> 
+                <img src="/images/placeholder.png" data-src="/images/fog-small.jpg" alt="fog">
             </picture>
+
             <picture class="rain">
-                <img src="/images/placeholder.png" data-src="/images/rain.jpg" alt="rain">
+                <source media="(min-width: 768px)" srcset="/images/rain.jpg">
+                <img src="/images/placeholder.png" data-src="/images/rain-small.jpg" alt="rain">
             </picture>
+
             <picture class="snow">
-                <img src="/images/placeholder.png" data-src="/images/snow.jpg" alt="snow">
+                <source media="(min-width: 768px)" srcset="/images/snow.jpg">
+                <img src="/images/placeholder.png" data-src="/images/snow-small.jpg" alt="snow">
             </picture>
+
         </div>
     </main>
 
