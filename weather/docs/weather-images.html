@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Progressive loading of images assingnment">
+    <meta name="author" content="Emmaline Brown">
+    <title>Weather Images</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/weather/css/weather-images.css">
+  
+</head>
+<body>
+    <header>
+        <h1>Progressive Loading (Images)</h1>
+    </header>
+
+    <main>
+        <div id="pictures">
+            <picture class="clear">
+                <img src="/images/placeholder.png" data-src="/images/clear.jpg" alt="clear">
+            </picture>
+            <picture class="clouds">
+                <img src="/images/placeholder.png" data-src="/images/clouds.jpg" alt="clouds">
+            </picture>
+            <picture class="fog">
+                <img src="/images/placeholder.png" data-src="/images/fog.jpg" alt="fog">
+            </picture>
+            <picture class="rain">
+                <img src="/images/placeholder.png" data-src="/images/rain.jpg" alt="rain">
+            </picture>
+            <picture class="snow">
+                <img src="/images/placeholder.png" data-src="/images/snow.jpg" alt="snow">
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+        <script src="/weather/js/weather-images.js" defer></script>
+    </footer>
+    
+</body>
+</html>

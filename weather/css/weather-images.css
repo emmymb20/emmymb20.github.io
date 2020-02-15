@@ -1,0 +1,45 @@
+#pictures
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.clear img 
+{
+    width:50%;
+}
+
+.clouds img 
+{
+    width: 50%;
+}
+
+.fog img
+{
+    width:50%;
+}
+
+.rain img
+{
+    width:50%;
+}
+
+.snow img
+{
+    width:50%;
+}
+
+
+
+picture img[data-src]
+{
+    filter: blur(0.2em);
+}
+  
+picture img 
+{
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
