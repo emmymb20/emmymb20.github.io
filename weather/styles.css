@@ -9,7 +9,7 @@
 {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-    max-width: 800px; 
+    
 }
 nav ul 
 {
@@ -30,19 +30,15 @@ nav ul
     align-items: center;
     font-family: 'Raleway', sans-serif;
     padding: 1em;
-    background-color: #000000;
-    color: #ffffff;
-    max-width: 800px;
+    background-color: #ccc;
     margin: 0 auto;
 }
 .heading-2
 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ccc;
     padding: 2vw;
-    max-width: 800px;
     margin: auto;
 }
 footer
@@ -50,10 +46,8 @@ footer
     font-family: 'Raleway', sans-serif;
     padding: 10px;
     text-align: center;
-    background-color: #000000;
-    max-width: 800px;
+    background-color: #ccc;
     margin: auto;
-    color: #ffffff;
 }
 
 h2, h3, h4, h5, h6
@@ -87,6 +81,33 @@ p
     display: flex;
     justify-content: center;
     padding: 3vw;
+}
+
+#temp-flex
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#mph
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.high
+{
+  color: red;
+  font-size: 3em;
+}
+.current-temp
+{
+  font-size: 5em;
+}
+.low
+{
+  color: #0000FF;
+  font-size: 3em;
 }
 
 /*Media Queries*/
@@ -154,14 +175,13 @@ p
       padding-bottom: 1em;
     }
 }
-}
+
 
 /*Body Design*/
 
 nav {
-	margin: 0 auto;
-	max-width: 760px;
-    background-color: #00bfff;
+	margin: 0 auto;;
+  background-color: #00bfff;
 }
 body
 {
@@ -174,7 +194,7 @@ html
 *, *::before, *::after {
     box-sizing: inherit;
 }
-.current, .temp, .precip, .conditions
+.temp, .precip, .conditions
 {
     border: 1px solid #ccc;
     padding: 5px;
@@ -183,6 +203,17 @@ html
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;   
+}
+
+.current
+{
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #999;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;  
+  max-width: 800px;
 }
 
 /*Menu desgin*/
@@ -223,8 +254,8 @@ html
     flex: 1 1 100%;
 	}
 	.navigation li a {
-		color: #fff;
-        text-align: center;
+		color: #000;
+    text-align: center;
 	}
 	
 	.navigation li:first-child {
@@ -276,7 +307,7 @@ ul
 {
   width: 1.5em;
   height: 1.5em;
-  background-color: red;
+  background-color: #0000FF;
   border-radius: 2em;
   grid-column: 4 / span 2;
   grid-row: 2 / span 2;
@@ -386,7 +417,7 @@ grid-column: 2 / span 2;
   top: 16%;
   left: 16%;
   border-radius: 50%;
-  background: radial-gradient(circle, transparent 50%, lightgray 30%);
+  background: radial-gradient(circle, transparent 50%, #00bfff 30%);
   border-radius: 100%;
   z-index: 1;
 }
@@ -400,3 +431,4 @@ grid-column: 2 / span 2;
   font-size: 2.5em;
 }
 
+/*new section*/
