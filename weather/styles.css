@@ -303,7 +303,7 @@ ul
   grid-template-rows: repeat(14, 1fr);
 }
 
-.indicator 
+.bal 
 {
   width: 1.5em;
   height: 1.5em;
@@ -318,7 +318,7 @@ ul
   grid-column: 7 / span 2;
   grid-row: 1 / span 2;
 }
-.inner12 {
+.i12 {
   grid-column: 7 / span 2;
   grid-row: 1 / span 2;
 }
@@ -326,7 +326,7 @@ ul
   grid-column: 4 / span 2;
   grid-row: 2 / span 2;
 }
-.inner11 {
+.i11 {
    grid-column: 4 / span 2;
   grid-row: 2 / span 2;
 }
@@ -334,7 +334,7 @@ ul
   grid-column: 2 / span 2;
   grid-row: 4 / span 2;
 }
-.inner10 {
+.i10 {
  grid-column: 2 / span 2;
   grid-row: 4 / span 2;
 }
@@ -342,7 +342,7 @@ ul
   grid-column: 1 / span 2;
   grid-row: 7 / span 2;
 }
-.inner9 {
+.i9 {
   grid-column: 1 / span 2;
   grid-row: 7 / span 2;
 }
@@ -350,7 +350,7 @@ ul
   grid-column: 2 / span 2;
   grid-row: -6 / span 2;
 }
-.inner8 {
+.i8 {
 grid-column: 2 / span 2;
   grid-row: -6 / span 2;
 }
@@ -358,7 +358,7 @@ grid-column: 2 / span 2;
   grid-column: 4 / span 2;
   grid-row: -4 / span 2;
 }
-.inner7 {
+.i7 {
   grid-column: 4 / span 2;
   grid-row: -4 / span 2;
 }
@@ -366,7 +366,7 @@ grid-column: 2 / span 2;
   grid-column: 7 / span 2;
   grid-row: -3 / span 2;
 }
-.inner6 {
+.i6 {
   grid-column: 7 / span 2;
   grid-row: -3 / span 2;
 }
@@ -374,7 +374,7 @@ grid-column: 2 / span 2;
   grid-column: -6 / span 2;
   grid-row: -4 / span 2;
 }
-.inner5 {
+.i5 {
   grid-column: -6 / span 2;
   grid-row: -4 / span 2;
 }
@@ -382,7 +382,7 @@ grid-column: 2 / span 2;
   grid-column: -4 / span 2;
   grid-row: -6 / span 2;
 }
-.inner4 {
+.i4 {
     grid-column: -4 / span 2;
   grid-row: -6 / span 2;
 }
@@ -390,7 +390,7 @@ grid-column: 2 / span 2;
   grid-column: -3 / span 2;
   grid-row: 7 / span 2;
 }
-.inner3 {
+.i3 {
    grid-column: -3 / span 2;
   grid-row: 7 / span 2;
 }
@@ -398,7 +398,7 @@ grid-column: 2 / span 2;
    grid-column: -4 / span 2;
   grid-row: 4 / span 2;
 }
-.inner2 {
+.i2 {
   grid-column: -4 / span 2;
   grid-row: 4 / span 2;
 }
@@ -406,7 +406,7 @@ grid-column: 2 / span 2;
    grid-column: -6 / span 2;
   grid-row: 2 / span 2;
 }
-.inner1 {
+.i1 {
   grid-column: -6 / span 2;
   grid-row: 2 / span 2;
 }
