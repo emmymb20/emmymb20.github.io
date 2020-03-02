@@ -92,3 +92,12 @@ function timeBall(hour){
         item.classList.add("ball");
     }
 }
+
+/* *************************************
+*  Background image function 
+************************************* */
+
+function changeSummaryImage(curCond){
+    let selectImage = document.querySelector(".snow");
+    selectImage.classList.add(curCond);
+}
