@@ -98,6 +98,6 @@ function timeBall(hour){
 ************************************* */
 
 function changeSummaryImage(curCond){
-    let selectImage = document.querySelector(".snow");
+    let selectImage = document.querySelector("#currentWeather");
     selectImage.classList.add(curCond);
 }

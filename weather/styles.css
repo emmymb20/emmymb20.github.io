@@ -110,8 +110,15 @@ p
   font-size: 3em;
 }
 
+#currentWeather
+{
+  background-size: cover;
+}
+
+
 /*Media Queries*/
 
+/*small screen*/
 @media screen and (max-width: 37.5em)
 {
     nav ul
@@ -125,9 +132,30 @@ p
         display: flex;
         flex-direction: column;
     }
+    .clear 
+    {
+      background-image: url(/images/clear-small.jpg);
+    }
+    .clouds
+    {
+      background-image: url(/images/clouds-small.jpg);
+    }
+    .fog 
+    {
+      background-image: url(/images/fog-small.jpg);
+    }
+    .rain
+    {
+      background-image: url(/images/rain-small.jpg);
+    }
+    .snow
+    {
+      background-image: url(/images/snow-small.jpg);
+    }
 
 }
 
+/*medium screen*/
 @media screen and (min-width: 37.5em)
 {
      nav 
@@ -150,9 +178,29 @@ p
       margin: 0 auto;
       padding-bottom: 1em;
     }
+    .clear 
+    {
+      background-image: url(/images/clear.jpg);
+    }
+    .clouds
+    {
+      background-image: url(/images/clouds.jpg);
+    }
+    .fog 
+    {
+      background-image: url(/images/fog.jpg);
+    }
+    .rain
+    {
+      background-image: url(/images/rain.jpg);
+    }
+    .snow
+    {
+      background-image: url(/images/snow.jpg);
+    }
  }
 
-
+/*large screen*/
 @media screen and (min-width: 60em)
 {
     nav
@@ -173,6 +221,26 @@ p
       width: 100%;
       margin: 0 auto;
       padding-bottom: 1em;
+    }
+    .clear 
+    {
+      background-image: url(/images/clear.jpg);
+    }
+    .clouds
+    {
+      background-image: url(/images/clouds.jpg);
+    }
+    .fog 
+    {
+      background-image: url(/images/fog.jpg);
+    }
+    .rain
+    {
+      background-image: url(/images/rain.jpg);
+    }
+    .snow
+    {
+      background-image: url(/images/snow.jpg);
     }
 }
 
