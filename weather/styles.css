@@ -270,7 +270,8 @@ html
     max-width: 60vw;
     border-radius: 10px;
     text-align: center;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    background: rgba(255, 255, 255, 0.3)
 }
 
 .current
@@ -282,6 +283,7 @@ html
   text-align: center;
   margin: 0 auto;  
   max-width: 800px;
+  background: rgba(255, 255, 255, 0.3)
 }
 
 /*Menu desgin*/
@@ -371,7 +373,7 @@ ul
   grid-template-rows: repeat(14, 1fr);
 }
 
-.bal 
+.ball
 {
   width: 1.5em;
   height: 1.5em;
