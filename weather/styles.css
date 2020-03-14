@@ -113,6 +113,12 @@ p
 #currentWeather
 {
   background-size: cover;
+  background-image: url(/images/clouds.jpg);
+}
+
+.hide
+{
+  display: none;
 }
 
 
@@ -501,4 +507,7 @@ grid-column: 2 / span 2;
   font-size: 2.5em;
 }
 
-/*new section*/
+/* Constrain condition images */
+#condition img{
+  max-width: 40%;
+}
